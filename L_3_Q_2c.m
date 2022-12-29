@@ -1,0 +1,12 @@
+a = double(imread('lab4_a.tif'));
+subplot(1,3,1);
+imshow(a,[]);
+title("original");
+s=1*a^3;
+subplot(1,3,2);
+imshow(s,[]);
+title("gamma=0.2");
+s=1*a^2;
+subplot(1,3,3);
+imshow(s,[]);
+title("gamma=0.2");
